@@ -16,6 +16,9 @@ header {
 main {
   background: rgba(100,111,100,0.5);
   border: 3px solid yellow;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 footer {
@@ -39,4 +42,34 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.petcard {
+  width: 100%;
+  height: 300px;
+  background-color: green;
+  margin: 5px;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 600px){
+  .petcard {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .petcard{
+    width: 33%
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .petcard {
+    width: 25%
+  }
+
+  @media only screen and (min-width: 1200px){
+    width: 17%;
+  }
 }
