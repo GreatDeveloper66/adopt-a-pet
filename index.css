@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&family=Roboto&display=swap');
+
 body {
   margin: 5px;
   padding: 5px;
   border: 3px solid red;
-
 }
 
 header {
@@ -35,6 +36,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 10em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +58,7 @@ footer {
   height: 400px;
   margin: 5px;
   padding: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 .card-img {
   height: 70%;
