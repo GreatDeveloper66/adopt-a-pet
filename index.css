@@ -57,6 +57,12 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+
+.menubutton {
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+}
 .petcard {
   width: 100%;
   height: 400px;
