@@ -49,10 +49,14 @@ footer {
   height: 50px;
   border: 2px solid white;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .petcard {
   width: 100%;
   height: 400px;
