@@ -62,6 +62,14 @@ footer {
   cursor: pointer;
   font-family: 'Work Sans', sans-serif;
   font-size: 1em;
+  background-color: rgba(0,0,255,0.7);
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all 1s;
+}
+
+.menubutton:hover {
+  background-color: rgba(0,0,139,1);
 }
 .petcard {
   width: 100%;
