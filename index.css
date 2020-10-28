@@ -132,6 +132,14 @@ footer {
   background-attachment: scroll;
 }
 
+#petimg9 {
+  background-image: url('./pet_images/parrot_3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
 
 
 
