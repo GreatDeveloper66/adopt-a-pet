@@ -124,6 +124,14 @@ footer {
   background-attachment: scroll;
 }
 
+#petimg8 {
+  background-image: url('./pet_images/parrot_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
 
 
 
