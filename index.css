@@ -79,6 +79,11 @@ footer {
   transition: all 1s;
 }
 
+
+.cardbutton {
+
+}
+
 .searchbutton:hover {
   filter: brightness(0.5);
 }
@@ -92,19 +97,23 @@ footer {
   padding: 5px;
   font-family: 'Roboto', sans-serif;
 }
-.card-img {
+.cardimg {
   height: 70%;
   width: 100%;
   border: 2px solid green;
 }
 
-.card-footer {
+.cardfooter {
   height: 15%;
-  width: 100%;
+  width: 98%;
+  padding: 4px;
   border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.card-txt {
+.cardtxt {
   height: 15%;
   width: 100%;
   border: 2px solid green;
