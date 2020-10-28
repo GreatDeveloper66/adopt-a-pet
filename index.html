@@ -14,21 +14,36 @@
         ADOPT-A-PET
       </div>
       <div class="menu">
-        <select id="pettypes">
-          <option value="cat">Cat</option>
-          <option value="dog">Dog</option>
-          <option value="bird">Bird</option>
-        </select>
+        <div class="menubar">
+          <button class="menubutton">
+            Home
+          </button>
+          <button class="menubutton">
+            About
+          </button>
+          <button class="menubutton">
+            Disclaimer
+          </button>
+          <button class="menubutton">
+            Social Media
+          </button>
+        </div>
+        <div class="form">
+          <select id="pettypes">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="bird">Bird</option>
+          </select>
           <div class="search-container">
             <form action="#">
               <input type="text" placeholder="Search.." name="search">
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
           </div>
-
+        </div>
       </div>
     </header>
     <main>
