@@ -47,10 +47,27 @@ footer {
 .petcard {
   width: 100%;
   height: 300px;
-  background-color: green;
   margin: 5px;
   padding: 5px;
 }
+.card-img {
+  height: 70%;
+  width: 100%;
+  border: 2px solid green;
+}
+
+.card-footer {
+  height: 15%;
+  width: 100%;
+  border: 2px solid green;
+}
+
+.card-txt {
+  height: 15%;
+  width: 100%;
+  border: 2px solid green;
+}
+.
 
 @media only screen and (min-width: 600px){
   .petcard {
