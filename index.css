@@ -67,7 +67,65 @@ footer {
   width: 100%;
   border: 2px solid green;
 }
-.
+
+#petimg1 {
+  background-image: url('./pet_images/cat_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#petimg2 {
+  background-image: url('./pet_images/cat_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#petimg3 {
+  background-image: url('./pet_images/cat_3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#petimg4 {
+  background-image: url('./pet_images/cat_4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#petimg5 {
+  background-image: url('./pet_images/dog_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#petimg6 {
+  background-image: url('./pet_images/dog_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#petimg7 {
+  background-image: url('./pet_images/dog_3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+
+
 
 @media only screen and (min-width: 600px){
   .petcard {
